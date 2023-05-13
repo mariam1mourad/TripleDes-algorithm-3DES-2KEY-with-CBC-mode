@@ -6,7 +6,7 @@ In this project we have developed an application that enables encryption and dec
 The CBC mode is an effective method of enhancing the security of the encryption process. By dividing the data into blocks and encrypting each block individually, the mode adds an additional layer of complexity to the process, making it more difficult for anyone attempting to breach the encryption.
 
 # Language
-We have used programming language Python. This code is open source which people implemented before but we just managed to make changes and make that one work for our needs, so if anyone has problem with it feel free to contact us.
+We have used programming language Java. This code is open source which people implemented before but we just managed to make changes and make that one work for our needs, so if anyone has problem with it feel free to contact us.
 
 # Authors
 * Olsa Fejzullahu
