@@ -26,3 +26,31 @@ def perform_operation():
 root = Tk()
 root.title("Encryption/Decryption Form")
 
+# Operation input
+operation_label = Label(root, text="Choose operation:")
+operation_label.pack()
+operation_var = StringVar(root)
+operation_var.set("Encrypt")
+operation_dropdown = OptionMenu(root, operation_var, "Encrypt", "Decrypt")
+operation_dropdown.pack()
+
+# File path input
+path_label = Label(root, text="File path:")
+path_label.pack()
+path_var = StringVar(root)
+path_entry = Entry(root, textvariable=path_var)
+path_entry.pack()
+
+# TDES key input
+key_label = Label(root, text="TDES key:")
+key_label.pack()
+key_var = StringVar(root)
+key_entry = Entry(root, textvariable=key_var)
+key_entry.pack()
+
+# Perform operation button
+perform_button = Button(root, text="Perform Operation", command=perform_operation)
+perform_button.pack()
+
+# Start the form
+root.mainloop()
